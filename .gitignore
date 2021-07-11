@@ -1,0 +1,16 @@
+# Main project
+*.sqlite3
+.env
+venv/
+__pycache__/
+
+# Accounts app
+features/accounts/__pycache__/
+features/accounts/migrations/
+
+# Tasks app
+features/tasks/__pycache__/
+features/tasks/migrations/
+
+# Mail app
+simple/__pycache__/
